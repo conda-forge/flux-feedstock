@@ -1,5 +1,5 @@
 context:
-  version: "2.8.7"
+  version: "2.8.8"
 
 package:
   name: flux
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/fluxcd/flux2/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 7c3f1b6ec647bfb777d7213a1907dc3694f6af1c7a0e7a0a03021e43a1a86189
+  sha256: d7f3c9d6d728a5db8396a002b30693895bd3344f3da6ad44a9101616713e5318
   target_directory: src
 
 build:
